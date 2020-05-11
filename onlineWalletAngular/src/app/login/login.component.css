@@ -1,0 +1,14 @@
+.container {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjOvSperRYjHH9-EHlKZJBfwvXy4rJpyerzHQsnp8DuuycYU5_);
+     width: 1400px;
+     
+     color: #fff;
+     font-size: 25px;
+     padding: 75px 50px 75px 80px;
+     top: 50%;
+     left: 50%;
+     
+     transform: translate(-50%,-50%);
+     position: absolute;
+
+}

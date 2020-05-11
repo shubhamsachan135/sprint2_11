@@ -1,0 +1,111 @@
+body {
+	background-color: #3fb0ef !important;
+	width: 1400px;
+	
+		
+}
+
+.wallet-container {
+       background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjOvSperRYjHH9-EHlKZJBfwvXy4rJpyerzHQsnp8DuuycYU5_);
+		width: 1400px;
+		
+		color: #fff;
+		font-size: 25px;
+		padding: 75px 50px 75px 50px;
+		top: 50%;
+        left: 50%;
+        
+		transform: translate(-50%,-50%);
+		position: absolute;
+  
+}
+.page-title {
+    text-align: left;
+    font-size: 35px;
+}
+.fa-user {
+	float: right;
+}
+.fa-align-left {
+	margin-right: 15px;
+}
+
+.amount-box img {
+	width: 200px;
+}
+
+.amount {
+	font-size: 50px;
+}
+
+.amount-box p {
+	margin-top: 10px;
+	margin-bottom: -10px;
+	font-size: 35px;
+}
+
+.btn-group {
+	margin: 40px 0;
+}
+
+.btn-group .btn {
+	margin: 8px;
+	border-radius: 40px !important;
+	font-size: 35px;
+}
+
+.txn-history {
+	text-align: left;
+}
+
+.txn-list {
+	background-color: #fff;
+	padding: 12px 10px; 
+	color: #777;
+	font-size: 14px;
+	margin: 7px 0;
+}
+
+.debit-amount {
+	color: red;
+	float: right;
+}
+
+.credit-amount {
+	color: green;
+	float: right;
+
+}
+
+.footer-menu {
+	margin: 20px -20px 0;
+	bottom: 0;
+	border-top: 1px solid #ccc;
+	padding: 10px 10px 0;
+	
+}
+
+.row text-center{
+	text-align: center;
+    font-size: 35px;
+}
+
+.footer-menu p {
+	font-size: 12px;
+}
+
+
+.btn{
+	margin: 35px 50px 25px 600px;
+	text-align: center;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1000px){
+  .wallet-container {
+    height: 115%;
+    bottom: 20px;
+    margin-top: 100px;
+  }
+  
+}
